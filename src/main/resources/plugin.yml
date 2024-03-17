@@ -1,0 +1,8 @@
+name: ColorfulColors
+version: '${project.version}'
+main: mc233.fun.colorfulcolors.ColorfulColors
+api-version: '1.19'
+commands:
+  ColorfulColors:
+    aliases: [ccs]
+  Rename:

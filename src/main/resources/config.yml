@@ -1,0 +1,6 @@
+__message__1: "最长名称限制"
+max-nick-length: 16
+__message__2: "最短名称限制"
+min-nick-length: 4
+
+

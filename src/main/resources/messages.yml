@@ -1,0 +1,135 @@
+messages:
+  __message__1: "尝试修改目标但未设置活跃颜色时显示"
+  noColorTarget: '#E51A94%target% #94E51A没有设置活跃颜色'
+
+  __message__2: "目标离线/不存在时显示"
+  couldntFindTarget: '#94E51A无法找到目标 #E51A94%target%'
+
+  __message__3: "玩家没有权限修改其他玩家颜色时显示"
+  noPermModifyTarget: '#94E51A您没有权限修改 #E51A94%target% 的颜色'
+
+  __message__4: "尝试修改颜色但没有设置颜色时显示"
+  noColor: '#94E51A您没有设置活跃颜色'
+
+  __message__5: "玩家移除的颜色时显示"
+  colorRemoved: '#94E51A颜色已成功移除'
+
+  __message__6: "玩家移除其他玩家的颜色时显示"
+  colorRemovedTarget: '#E51A94%target% 的颜色已成功移除'
+
+  __message__7: "玩家没有权限编辑他们的颜色时显示"
+  noPermEdit: '#94E51A您没有权限编辑您的颜色'
+
+  __message__8: "玩家没有权限移除其他玩家的颜色时显示"
+  noPermRemoveTarget: '#94E51A您没有权限移除 #E51A94%target% 的颜色'
+
+  __message__9: "玩家没有权限移除他们的颜色时显示"
+  noPermRemove: '#94E51A您没有权限移除您的颜色'
+
+  __message__10: "尝试将昵称更改为在线玩家用户名时显示"
+  cantUsePlayerName: '#94E51A无法使用现有玩家名称'
+
+  __message__11: "已有活跃颜色时尝试设置新颜色时显示"
+  removeColor: '#94E51A请先移除您的颜色再设置新颜色'
+
+  __message__12: "玩家没有权限更改他们的昵称时显示"
+  noPermNick: '#94E51A您没有权限设置您的昵称'
+
+  __message__13: "玩家没有权限设置他们的颜色时显示"
+  noPermColor: '#94E51A您没有权限设置您的颜色'
+
+  __message__14: "玩家有活跃模板时尝试修改颜色时显示"
+  removeTemplate: '#94E51A请先移除您的模板'
+
+  __message__15: "玩家没有权限激活标签名称时显示"
+  noPermTab: '#94E51A您没有权限设置标签名称'
+
+  __message__16: "玩家没有权限激活发光颜色时显示"
+  noPermGlow: '#94E51A您没有权限设置发光名称'
+
+  __message__17: "尝试保存目标的颜色但目标离线时显示"
+  targetOffline: '#E51A94%target% #94E51A离线。未保存任何更改'
+
+  __message__18: "玩家没有权限输入十六进制颜色时显示"
+  noPermHex: '#94E51A您没有权限使用十六进制颜色'
+
+  __message__19: "尝试使用不存在的Prismatic Colors命令时显示"
+  unknownCommand: '#94E51A此命令不存在'
+
+  __message__20: "玩家没有权限切换删除线文本装饰时显示"
+  noPermStrikethrough: '#94E51A您没有权限使用删除线文本'
+
+  __message__21: "玩家没有权限切换下划线文本装饰时显示"
+  noPermUnderline: '#94E51A您没有权限使用下划线文本'
+
+  __message__22: "玩家没有权限切换粗体文本装饰时显示"
+  noPermBold: '#94E51A您没有权限使用粗体文本'
+
+  __message__23: "玩家没有权限切换斜体文本装饰时显示"
+  noPermItalic: '#94E51A您没有权限使用斜体文本'
+
+  __message__24: "玩家指定的昵称过长时显示"
+  nameTooLong: '#94E51A指定的昵称超过最大字符限制'
+
+  __message__25: "玩家指定的昵称过短时显示"
+  nameTooShort: '#94E51A指定的昵称低于最小字符限制'
+
+  __message__26: "玩家输入无效的十六进制颜色时显示"
+  invalidHex: '#94E51A请输入有效的十六进制颜色'
+
+  __message__27: "玩家没有权限更改聊天颜色时显示"
+  noPermChatColor: '#94E51A您没有权限更改聊天颜色'
+
+  __message__28: "玩家更改聊天颜色时未指定十六进制颜色时显示"
+  specifyHex: '#94E51A请指定十六进制颜色'
+
+  __message__29: "玩家没有权限重新加载插件时显示"
+  noPermReload: '#94E51A您没有权限重新加载插件'
+
+  __message__30: "插件重新加载时显示"
+  pluginReloaded: '#94E51A插件已重新加载'
+
+  __message__31: "玩家设置他们的聊天颜色时显示"
+  chatColorSet: '#94E51A聊天颜色已成功设置'
+
+  __message__32: "玩家移除他们的聊天颜色时显示"
+  chatColorRemove: '#94E51A聊天颜色已成功移除'
+
+  __message__33: "玩家设置其他玩家的聊天颜色时显示"
+  chatColorSetTarget: '#E51A94%target% 的聊天颜色已成功设置'
+
+  __message__34: "玩家移除其他玩家的聊天颜色时显示"
+  chatColorRemoveTarget: '#E51A94%target% 的聊天颜色已成功移除'
+
+  __message__35: "玩家设置其他玩家的模板时显示"
+  templateSetTarget: '#E51A94%target% 的模板已成功设置'
+
+  __message__36: "玩家指定错误的模板时显示"
+  unknownTemplate: '#94E51A未知模板'
+
+  __message__37: "玩家使用错误的命令语法时显示"
+  wrongUsage: '#94E51A参数错误。使用 /ccs help 检查语法'
+
+  __message__38: "玩家在使用重命名命令时没有持有物品时显示"
+  holdItem: '#94E51A请持有您想要重命名的物品'
+
+  __message__39: "玩家在使用重命名命令时未指定物品名称时显示"
+  specifyName: '#94E51A请指定物品的新名称'
+
+  __message__40: "玩家在保存重命名更改时没有持有相同物品时显示"
+  itemsMismatch: '#94E51A请持有运行命令时持有的相同物品。取消更改'
+
+  __message__41: "玩家没有权限重命名物品时显示"
+  noPermRename: '#94E51A您没有权限重命名物品'
+
+  __message__42: "玩家没有权限使用渐变聊天颜色时显示"
+  noPermGradientChatColor: '#94E51A您没有权限使用渐变聊天颜色'
+
+  __message__43: "插件等待十六进制颜色时，玩家尝试使用命令时显示"
+  sayCancel: '#94E51A说 #E51A94cancel #94E51A 以退出'
+
+  __message__44: "玩家在GUI中点击十六进制按钮时显示"
+  hexInstructions1: '#94E51A请在聊天中说出十六进制颜色。确保包含 #E51A94# #94E51A 符号'
+
+  __message__45: "玩家在GUI中点击十六进制按钮时显示"
+  hexInstructions2: '#94E51A输入 #E51A94cancel #94E51A 以返回编辑'
