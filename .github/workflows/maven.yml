@@ -1,10 +1,10 @@
-name: Java CI with Maven
+name: ColorfulColors
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -20,8 +20,11 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Get the date
+      id: date
+      run: echo "::set-output name=date::$(date +'%m-%d')"
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: my-artifact
+        name: ${{ steps.date.outputs.date }}-ColorfulColors
         path: target/*.jar
